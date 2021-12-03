@@ -7,3 +7,8 @@ def fund_advanced_collectible(nft_contract):
 
     )
     link_token.transfer(nft_contract,1000000000000000000,{"from":dev})
+
+
+def get_breed(breed_number):
+    switch={0:"PUG",1:"SHIBA_INU",2:"ST_BERNARD"}
+    return switch[breed_number]
