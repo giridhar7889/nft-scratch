@@ -13,3 +13,19 @@ owner->the one who initially hit that create collectible function
 Id->the item id
 
 # \_setTokenURI(item,tokenURI)
+
+# smartcontract interaction
+when ever you interact with a smartcontract on chain you need two things:-
+->abi : abi defines the way to interact with a smartcontract
+->interface:you need the network link_token address
+
+# CURL
+Curl is a command-line utility that allows users to create network requests. 
+To make a basic POST request using curl, type the following command on your command-line:
+curl -X POST https://example.com/
+curl -X  POST -F file=@img/pug.png http://127.0.0.1:5000/api/v0/add returns {"Name":"pug.png","Hash":"QmSsYRx3LpDAb1GZQm7zZ1AuHZjfbPkD6J7s9r41xu1mf8","Size":"5699"}
+
+It means it got succesfully uploaded and gives us the hash
+
+# /api/v0/add 
+add the file or directory to ipfs

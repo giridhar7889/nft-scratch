@@ -13,3 +13,5 @@ def main():
     tokenId=advanced_collectible.requestIdToTokenId(requestId)
     breed=get_breed(advanced_collectible.tokenIdToBreed(tokenId))
     print('Dog breed of tokenId {} is {}'.format(tokenId,breed))
+
+#0x4c71b02e6B962c49e9B5DC60B936dD8D1FaADA0C
